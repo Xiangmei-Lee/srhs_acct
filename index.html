@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>학생 계정 검색</title>
+  <link rel="stylesheet" href="static/styless.css">
+</head>
+<body>
+  <div class="container">
+    <h1>학생 계정 검색</h1>
+    <form id="search-form">
+      <label for="student-id">학번</label>
+      <input type="text" id="student-id" name="student-id" required>
+
+      <label for="student-name">이름</label>
+      <input type="text" id="student-name" name="student-name" required>
+
+      <button type="submit">검색</button>
+    </form>
+
+    <div id="result">
+      <!-- 결과가 여기에 표시될 예정 -->
+    </div>
+  </div>
+
+  <script src="static/script.js"></script>
+</body>
+</html>
