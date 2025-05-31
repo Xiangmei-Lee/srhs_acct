@@ -3,6 +3,7 @@ const accountData = [
   { id: '20230001', name: '김민수', email: 'kimms@school.edu', password: 'abc1234' },
   { id: '20230002', name: '이지은', email: 'leeje@school.edu', password: 'qwe5678' },
   { id: '20230003', name: '박지호', email: 'parkjh@school.edu', password: 'zxc9876' }
+  { id: '20230004', name: '김민성', email: 'parkjh@school.edu', password: 'zxc2030' }
 ];
 
 // DOM 요소 참조
