@@ -8,7 +8,7 @@
 
 /* 배경 및 레이아웃 */
 body {
-  background-color: #f5f7fa;
+  background-color: #f0f2f5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@ body {
   background-color: #ffffff;
   padding: 40px;
   border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   width: 100%;
   max-width: 400px;
 }
@@ -42,25 +42,27 @@ form {
 
 label {
   font-weight: 600;
-  color: #555;
+  color: #444;
 }
 
 input {
   padding: 10px 14px;
-  border: 1px solid #ccc;
+  border: 1px solid #ccd6dd;
   border-radius: 8px;
-  transition: border 0.3s;
+  transition: border 0.3s, box-shadow 0.3s;
+  background-color: #f9fbfd;
 }
 
 input:focus {
-  border-color: #0078ff;
+  border-color: #4da6ff;
+  box-shadow: 0 0 0 3px rgba(77, 166, 255, 0.2);
   outline: none;
 }
 
 /* 버튼 스타일 */
 button {
   padding: 12px;
-  background-color: #0078ff;
+  background-color: #4da6ff;
   color: white;
   border: none;
   border-radius: 8px;
@@ -71,16 +73,17 @@ button {
 }
 
 button:hover {
-  background-color: #005fcc;
+  background-color: #3399ff;
 }
 
 /* 결과 출력 */
 #result {
   margin-top: 24px;
   padding: 16px;
-  background-color: #f0f4f8;
+  background-color: #e6f3ff;
+  border-left: 5px solid #4da6ff;
   border-radius: 8px;
   color: #333;
   font-size: 14px;
-  display: none; /* 초기에 숨김 */
+  display: none;
 }
